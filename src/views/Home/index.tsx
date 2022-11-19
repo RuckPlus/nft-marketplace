@@ -1,10 +1,8 @@
-// 必要に応じてimportも転記
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from '../styles/Home.modules.css';
+import styles from '../styles/Home.moudules.css';
 
 const Home = () => {
-    export default function Home() {
       return (
         <div className={styles.container}>
           <Head>
@@ -71,7 +69,4 @@ const Home = () => {
         </div>
       )
     }
-}
-
-export default Home
 
